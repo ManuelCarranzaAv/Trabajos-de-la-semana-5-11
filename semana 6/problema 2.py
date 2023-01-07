@@ -3,7 +3,7 @@
 #Estructura selectivas
 # Dobles
 
-a=float(input("ingrese la calificación del alumno: "))
+a=float(input("ingrese la calificación del alumno: \n"))
 
 if a>10.5:
     print("el alumno esta aprobado")

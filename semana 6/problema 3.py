@@ -3,16 +3,16 @@
 #estructura selctivas
 #Multiples
 
-a=float(input("ingrese la nota del examen: "))
+a=float(input("ingrese la nota del examen: \n"))
 if a >=0 and a <= 9:
-    print("Suspenso")
+    print("Suspendido")
 elif a >= 10 and a<=11:
     print("Suficiente")
 elif a >=12 and a <= 14:
 	print("Bien")
 elif a == 16 or a==17:
 	print("Notable")
-elif a >=18 or a <= 20:
+elif a >=18 and a <= 20:
 	print("Sobresaliente")
 else:
 	print("La nota es incorrecta")

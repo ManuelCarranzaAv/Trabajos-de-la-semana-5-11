@@ -1,4 +1,4 @@
-print("Digite los catetos y hipotenusa de un triangulo rectangulo para calcular el perimetro")
+#Digite los catetos y hipotenusa de un triangulo rectangulo para calcular el perimetro")
 cateto1 = float(input("Coloque el primer cateto: "))
 if cateto1<0:
     print("DATO INCORRECTO")

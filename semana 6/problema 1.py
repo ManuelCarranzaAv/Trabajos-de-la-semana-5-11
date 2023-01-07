@@ -2,7 +2,8 @@
 #estructuras selectivas
 #Simples
 
-edad=20
+edad=int(input("Cuantos años tiene?: \n"))
+
 if edad>17:
     print ("es mayor de edad")
 

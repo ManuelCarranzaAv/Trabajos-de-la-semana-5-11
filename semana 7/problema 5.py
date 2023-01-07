@@ -8,6 +8,6 @@ puntaje = float(input("Puntaje obtenido en el examen: "))
 if puntaje<=1000 and puntaje>750:
     print("Eres de la seccion A")
 if puntaje<=750 and puntaje>350:
-    print("Eres de la seecion B")
+    print("Eres de la seccion B")
 if puntaje<=350 and puntaje>0:
     print("Eres de la seccion C")

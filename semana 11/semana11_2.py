@@ -10,13 +10,14 @@ resta = 0
 #salida
 rpt = "si"
 while (rpt != "no"):
-    num1 = int (input ("ingrese el primer digito: "))
-    num2 = int (input ("ingrese el segundo digito: "))
+    num1 = int (input ("ingrese el primer numeros: "))
+    num2 = int (input ("ingrese el segundo numeros: "))
+    
     acu = acu + num1 + num2
     cont = cont + 2
     resta = num1 - num2
     print ("La resta es: ", resta)
-    print("La acumulación de resta es de: " , acu)
+    print("La acumulación de los numeros resta es de: " , acu)
     print("Contador de cuantos digitos ingresó: ", cont)
 
     rpt = str (input ("Desea realizar otra resta? si/no : "))
